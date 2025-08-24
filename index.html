@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cristian Armenteros - Strategic IT & Digital Transformation Leader</title>
+<meta name="description" content="Strategic IT & Digital Leader with 15+ years of experience in Modern Workplace, Cloud, Cybersecurity, and Enterprise Computing. Expert in leading teams and optimizing business efficiency.">
+<meta name="keywords" content="Cristian Armenteros, IT Leader, Digital Transformation, Modern Workplace, Cloud, Cybersecurity, IT Strategy, Project Management, Service Delivery, Barcelona">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){emailjs.init("35t2jE0gbWZquiish");})();
+</script>
+<style>
+:root {
+  --primary-color: #004080;
+  --secondary-color: #0066cc;
+  --accent-color: #f4a261;
+  --background-color: #f4f7f9;
+  --card-background: #fff;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  color:#333;
+  scroll-behavior:smooth;
+  background-color: var(--background-color);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-color: rgba(244, 247, 249, 0.85);
+  z-index: -1;
+}
+
+nav {
+  background: var(--primary-color);
+  position: sticky; top:0; z-index:1000;
+}
+nav ul {display:flex; justify-content:center; flex-wrap:wrap; list-style:none; margin:0; padding:10px;}
+nav li {margin:5px 15px;}
+nav a {color:#fff; font-weight:600; text-decoration:none; transition: color 0.3s;}
+nav a:hover {color: var(--accent-color);}
+
+.sidebar {
+  position: fixed; top:50%; left:10px;
+  transform:translateY(-50%);
+  display:flex; flex-direction:column; gap:15px; z-index:1000;
+}
+.sidebar a {color: var(--primary-color); font-size:1.5em; transition:color 0.3s;}
+.sidebar a:hover {color: var(--accent-color);}
+
+header {position:relative;}
+.profile-header {position: relative; text-align: center; margin-bottom: 80px;}
+.profile-header img.profile-banner-img {
+  object-fit: contain;
+  background-color: #000;
+}
+.profile-header img.profile-photo {
+  width:150px; 
+  height:150px; 
+  border-radius:50%; 
+  border:4px solid #fff; 
+  position:absolute; 
+  bottom:-75px; 
+  left:50%;
+  transform: translateX(-50%);
+  box-shadow:0 4px 12px rgba(0,0,0,0.3); 
+  z-index:10;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  transform: translateY(-50%);
+}
+.header-content h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header-content p {
+  margin: 15px 0 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.main-container {max-width:1000px; margin:auto; padding:20px 20px 20px;}
+h1 {color: var(--primary-color); font-size:2.5em; margin-bottom:5px; text-align: center;}
+h2 {padding-left:10px; border-left:4px solid var(--primary-color); margin-top:0;}
+.profile-info {text-align: center; margin-top: 10px;}
+.profile-info p {font-size: 1.2rem; margin-top: 0;}
+section {
+  margin-bottom:40px; padding:25px; border-radius:12px;
+  opacity:0; transform:translateY(20px);
+  transition: opacity 0.6s, transform 0.6s;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15);
+  background-color: var(--card-background);
+}
+section.visible {opacity:1; transform:translateY(0);}
+.card {
+  padding:15px; 
+  margin:10px 0; 
+  border-radius:10px; 
+  transition: transform 0.3s, box-shadow 0.3s; 
+  cursor:pointer;
+  background: linear-gradient(145deg, #f7f7f7, #ffffff);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card:hover {transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.3);}
+.contact-links a {display:inline-block; margin:10px 15px 0 0; font-weight:bold; color:#333;}
+.contact-links a:hover {color: var(--accent-color);}
+form {display:flex; flex-direction:column; gap:10px;}
+input, textarea, button {padding:10px; border-radius:6px; font-family:inherit;}
+input, textarea {border:1px solid #ccc;}
+button {background: var(--accent-color); color:#fff; cursor:pointer; font-weight:600;}
+button:hover {background:#e76f51;}
+footer {text-align:center; padding:20px; color:#fff; background: var(--primary-color);}
+.achievements {display:flex; flex-wrap:wrap; gap:20px; justify-content:space-around;}
+.achievement {text-align:center; flex:1 1 200px; background:rgba(255,255,255,0.1); padding:15px; border-radius:10px;}
+.achievement h3 {font-size:2em; margin:5px 0;}
+blockquote {font-style:italic; border-left:4px solid #fff; padding-left:10px; margin:10px 0;}
+.more-content {display:none; margin-top:10px;}
+.more-btn {background: var(--primary-color); color:#fff; border:none; padding:5px 10px; border-radius:6px; cursor:pointer; margin-top:5px;}
+.more-btn:hover {background: var(--accent-color);}
+
+/* Responsive */
+@media(max-width:768px){
+  .profile-header img.profile-photo {width:100px; height:100px; bottom:-50px;}
+  .header-content h1 {font-size: 1.8rem;}
+  .header-content p {font-size: 1.1rem;}
+  .main-container {padding:20px 15px 15px;}
+  .sidebar {flex-direction:row; top:auto; bottom:10px; left:50%; transform:translateX(-50%);}
+  nav ul {flex-direction:column;}
+  nav li {margin:5px 0;}
+  .profile-info {margin-top: 5px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="#contact" class="nav-link" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+  <a href="https://linkedin.com/in/cristianarmenteros" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="CV_Cristian_Armenteros_ENG.pdf" download title="Download CV"><i class="fa-solid fa-file-pdf"></i></a>
+</div>
+
+<nav>
+  <ul>
+    <li><a href="#professional-summary" class="nav-link">Summary</a></li>
+    <li><a href="#specialties-services" class="nav-link">Specialties</a></li>
+    <li><a href="#key-projects" class="nav-link">Projects</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <div class="profile-header">
+    <img src="img/1750330836227.jpg" alt="Banner - Leading the Digital Future" class="profile-banner-img">
+    <div class="header-content"></div>
+    <img src="img/foto_cam.jpg" alt="Cristian Armenteros Martínez" class="profile-photo">
+  </div>
+</header>
+
+<div class="profile-info">
+  <h1>Cristian Armenteros Martínez</h1>
+  <p><strong>Strategic IT & Digital Transformation Leader</strong></p>
+</div>
+
+<div class="main-container">
+  <section id="professional-summary" class="summary">
+    <h2>Professional Summary</h2>
+    <p>Strategic IT and Digital Transformation leader with over 20 years of experience, specialized in aligning technology with business objectives to maximize results. With proven experience in cost savings, continuous improvement, and high-performance team management in complex corporate environments.</p>
+  </section>
+
+  <section id="specialties-services" class="specialties">
+    <h2>Specialties & Services</h2>
+    <div class="card"><i class="fa-solid fa-desktop"></i> Modern Workplace</div>
+    <div class="card"><i class="fa-solid fa-cloud"></i> Cloud Computing</div>
+    <div class="card"><i class="fa-solid fa-lock"></i> Cybersecurity</div>
+    <div class="card"><i class="fa-solid fa-server"></i> Infrastructure</div>
+    <div class="card"><i class="fa-solid fa-gears"></i> Operations and Project Management</div>
+    <div class="card"><i class="fa-solid fa-wand-magic-sparkles"></i> Digital Transformation</div>
+    <div class="card"><i class="fa-solid fa-users-gear"></i> Multidisciplinary Team Leadership</div>
+  </section>
+
+  <section id="key-projects" class="projects">
+    <h2>Key Projects</h2>
+    <div class="achievements">
+      <div class="achievement"><h3 class="num" data-target="22">0</h3><p>% Reduction in Operating Costs</p></div>
+      <div class="achievement"><h3 class="num" data-target="18">0</h3><p>% Productivity Increase</p></div>
+      <div class="achievement"><h3 class="num" data-target="98">0</h3><p>% SLA Achievement</p></div>
+    </div>
+    <button class="more-btn" onclick="toggleMore(this)">See more projects</button>
+    <div class="more-content">
+      <p>Additional projects include cloud migration strategies, cybersecurity frameworks, and digital workplace adoption initiatives.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>I am actively seeking a new opportunity to lead innovative projects. Connect with me to explore how I can bring value to your organization.</p>
+    <form id="contact-form">
+      <input type="text" name="user_name" placeholder="Your name" required>
+      <input type="email" name="user_email" placeholder="Your email" required>
+      <textarea name="message" rows="4" placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</div>
+
+<footer>
+  <p>© 2025 Cristian Armenteros Martínez. All Rights Reserved.</p>
+</footer>
+
+<script>
+// Smooth scroll nav
+document.querySelectorAll('a.nav-link').forEach(link => {
+  link.addEventListener('click', function(e){
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if(target){ target.scrollIntoView({behavior:'smooth'}); }
+  });
+});
+
+// Animate sections
+document.addEventListener('DOMContentLoaded', ()=>{
+  const sections = document.querySelectorAll('section');
+  const observer = new IntersectionObserver((entries, obs)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){ entry.target.classList.add('visible'); obs.unobserve(entry.target); }
+    });
+  },{threshold:0.2});
+  sections.forEach(sec=>observer.observe(sec));
+
+  // Animate achievements
+  const nums = document.querySelectorAll('.num');
+  const numObserver = new IntersectionObserver((entries, obs)=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){
+        const el = entry.target;
+        const target = +el.getAttribute('data-target');
+        let count = 0;
+        const step = target/50;
+        const interval = setInterval(()=>{
+          count += step;
+          if(count >= target){ count = target; clearInterval(interval); }
+          el.textContent = Math.round(count);
+        },30);
+        obs.unobserve(el);
+      }
+    });
+  },{threshold:0.5});
+  nums.forEach(n=>numObserver.observe(n));
+});
+
+// Toggle more content
+function toggleMore(btn){
+  const content = btn.nextElementSibling;
+  if(content.style.display==='block'){ content.style.display='none'; btn.textContent='See more projects'; }
+  else{ content.style.display='block'; btn.textContent='See less'; }
+}
+
+// EmailJS form
+document.getElementById('contact-form').addEventListener('submit', function(event){
+  event.preventDefault();
+  emailjs.sendForm('service_lvyqqwm','template_5y7cmti', this)
+  .then(()=>{ alert("Message sent!"); this.reset(); },
+        (err)=>{ alert("Error sending message: "+JSON.stringify(err)); });
+});
+</script>
+
+</body>
+</html>
