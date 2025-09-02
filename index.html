@@ -77,8 +77,11 @@ img{max-width:100%;height:auto;}
 <nav>
   <ul>
     <li><a href="#professional-summary" class="nav-link">Summary</a></li>
-    <li><a href="#specialties-services" class="nav-link">Specialties</a></li>
+        <li><a href="#specialties-services" class="nav-link">Specialties</a></li>
     <li><a href="#key-kpis" class="nav-link">Key KPIs</a></li>
+	<li><a href="#licenses-certs" class="nav-link">Licenses & Certs</a></li>
+    <li><a href="#languages" class="nav-link">Languages</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
     <li><a href="#contact" class="nav-link">Contact</a></li>
   </ul>
 </nav>
@@ -103,7 +106,6 @@ img{max-width:100%;height:auto;}
 
 <div class="main-container">
 
-<!-- Professional Summary -->
 <section id="professional-summary" class="spaced-block">
   <h2 class="section-title">Professional Summary</h2>
   <p class="section-content">
@@ -117,7 +119,6 @@ img{max-width:100%;height:auto;}
   </p>
 </section>
 
-<!-- Specialties & Services -->
 <section id="specialties-services" class="spaced-block">
   <h2 class="section-title">Specialties & Services</h2>
 
@@ -214,7 +215,91 @@ img{max-width:100%;height:auto;}
   </p>  
 </section>
 
-<!-- Contact -->
+<section id="licenses-certs" class="spaced-block">
+  <h2 class="section-title">Licenses & Certifications</h2>
+  
+  <div class="card" onclick="toggleDetail(this)">
+    <div class="card-header">
+      <i class="fa-solid fa-certificate"></i>
+      <span class="card-title">ITIL® V4 Foundation | October 2024</span>
+      <i class="fa-solid fa-chevron-down arrow"></i>
+    </div>
+    <div class="detail">
+      <p>This certification validates my expertise in the IT Service Management (ITSM) framework, focusing on continuous improvement and value delivery for the business.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleDetail(this)">
+    <div class="card-header">
+      <i class="fa-solid fa-certificate"></i>
+      <span class="card-title">Financial Fundamentals | March 2022</span>
+      <i class="fa-solid fa-chevron-down arrow"></i>
+    </div>
+    <div class="detail">
+      <p>Demonstrates my understanding of core financial principles, enabling effective budget management and financial control in IT operations and projects.</p>
+    </div>
+  </div>
+  
+  <div class="card" onclick="toggleDetail(this)">
+    <div class="card-header">
+      <i class="fa-solid fa-certificate"></i>
+      <span class="card-title">ITIL V3 Foundation | October 2013</span>
+      <i class="fa-solid fa-chevron-down arrow"></i>
+    </div>
+    <div class="detail">
+      <p>A foundational certification in IT service management, proving my knowledge of ITIL best practices and the service lifecycle.</p>
+    </div>
+  </div>
+
+  <div class="card" onclick="toggleDetail(this)">
+    <div class="card-header">
+      <i class="fa-solid fa-certificate"></i>
+      <span class="card-title">Certificate of Competence (ACTIC) | January 2012</span>
+      <i class="fa-solid fa-chevron-down arrow"></i>
+    </div>
+    <div class="detail">
+      <p>Accredits my advanced digital competencies for professional environments, including advanced user skills in office automation, internet, and digital security.</p>
+    </div>
+  </div>
+</section>
+
+<section id="languages" class="spaced-block">
+  <h2 class="section-title">Languages</h2>
+  <div class="section-content">
+    <ul>
+      <li><i class="fa-solid fa-globe"></i> **Spanish** - Native competence</li>
+      <li><i class="fa-solid fa-globe"></i> **Catalan** - Native competence</li>
+      <li><i class="fa-solid fa-globe"></i> **English** - Full professional proficiency</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="spaced-block">
+  <h2 class="section-title">Skills</h2>
+  <div class="section-content">
+    <p><strong>Leadership & Strategy:</strong></p>
+    <ul>
+      <li>Strategic Planning</li>
+      <li>Team Leadership (30+)</li>
+      <li>Incident & Change Management</li>
+      <li>Program/Project Management</li>
+      <li>Risk Management</li>
+      <li>Stakeholder & Client Engagement</li>
+      <li>Financial Control</li>
+    </ul>
+  </div>
+  <div class="section-content">
+    <p><strong>Technical Expertise:</strong></p>
+    <ul>
+      <li>Cloud Computing: **Azure**, **M365**, **AWS**</li>
+      <li>Virtualization: Hyper-V, VMWare</li>
+      <li>Cybersecurity: SIEM, EDR, IAM</li>
+      <li>Infrastructure: Backup, BBDD, NAS & SAN, Networks</li>
+      <li>Management Tools: ITIL V4, ServiceNow, Jira, SAP</li>
+    </ul>
+  </div>
+</section>
+
 <section id="contact" class="spaced-block">
   <h2 class="section-title">Contact</h2>
   <p class="section-content">
@@ -234,9 +319,7 @@ img{max-width:100%;height:auto;}
   </div>
 </section>
 
-</div> <!-- main-container -->
-
-<footer>
+</div> <footer>
   <p>© 2025 Cristian Armenteros Martínez. All Rights Reserved.</p>
 </footer>
 
@@ -338,7 +421,6 @@ function toggleMore(btn){
 // Toggle specialty detail
 function toggleDetail(card){ card.classList.toggle('open'); }
 </script>
-
 
 </body>
 </html>
