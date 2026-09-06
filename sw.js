@@ -1,4 +1,4 @@
-const CACHE_NAME = "cristian-cv-cache-v1";
+const CACHE_NAME = "cristian-cv-cache-v2"; // Cambiado v1 a v2
 const urlsToCache = [
   "/",
   "/index.html",
